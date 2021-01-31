@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+:root {
+  --dark: #080b3e;
+  --blue: #3c8bf7;
+  --light-blue: #0ebff4;
+}
+
+.App {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  margin: 2rem;
+}
+
+.display-off {
+  display: none;
+}
+
+h1 {
+  background: -webkit-linear-gradient(var(--blue), var(--light-blue));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+form {
+  color: var(--dark);
+  font-weight: 800;
+  font-size: 18px;
+}
+select {
+  outline: none;
+  margin-left: 1rem;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  color: var(--dark);
+  font-size: 16px;
+  border-bottom: solid 1px var(--blue);
+  background: white;
+  cursor: pointer;
+}
+
+option {
+  cursor: pointer;
+}
+
+.graph-container {
+  height: 500px;
+  max-width: 90vw;
+  margin: 2rem auto;
+}
+
+.graph-container > h2 {
+  color: white;
+  font-size: 20px;
+  background: linear-gradient(to right, var(--blue), var(--light-blue));
+  padding: 1rem;
+  border-radius: 5px;
+}
